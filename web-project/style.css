@@ -1,0 +1,118 @@
+
+
+
+body{
+/*	width: 900px;*/
+	margin:0px;
+}
+
+header{
+	background-color : white;
+	color : red;
+	height: 60px;
+}
+
+.social{
+	float: right;
+	margin-right: 10px
+	margin-bottom:0px;
+	padding-right: 10px;
+}
+
+.social ul li{
+	display: inline-block;
+}
+
+.social_image{
+	height:20px;
+	width:20px;
+}
+
+/*.logo{
+	margin-top: 10px;
+	float:left;
+	padding-left: 15px;
+}
+*/
+.buttons{
+	
+}
+
+.btnclr{
+	color: red;
+}
+
+.buttons li{
+	display: inline-block;
+	padding: 0 10px;
+	border-left: solid 1px black;
+}
+
+.buttons li:first-child{
+	border-left: none;
+}
+
+.divider{
+	background-color: black;
+	height: 5px;
+	margin-top: 15px;
+}
+
+.homeblack:hover{
+	border:solid;
+	border-color: blue;
+
+}
+
+.banner{
+	background-image: url(banner.jpg);
+
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+.leftMainBody{
+	float: left;
+	border: solid;
+	border-color: black;
+	width: 68%;
+	height: auto;
+}
+
+.leftMainBody h1{
+	font-size: 22px;
+	color: red;
+}
+
+.leftMainBody p{
+	font-size: 14px;
+	color: green;
+}
+
+.rightMainBody{
+	float: right;
+	border: solid;
+	border-color: black;
+	width: 30%;
+	height: auto;		
+}
+
+.rightBodyImg{
+	width:80%;
+	height: auto;
+	border-style:solid;
+	border-width: :10px;
+	opacity: 0.5;
+}
+
+.footer{
+	text-align: center;
+	clear: both;
+	background-color: yellow;
+	width: 100%;
+}
+
+
+
+

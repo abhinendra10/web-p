@@ -70,8 +70,8 @@ body{
 }
 
 .banner{
-    width: 100%;
-    height: auto;
+    width: 1000px;
+    height: 300px;
 }
 
 .heading{
@@ -79,7 +79,8 @@ body{
     height: auto;
     background-color: #95beff;
     text-align: center;
-
+    display: inline-block;
+    border:none;
 }
 
 .heading h1{
@@ -91,5 +92,110 @@ body{
 .heading p{
     font-size: 16px;
     padding-bottom: 28px;
+   
 }
 
+.leftContent{
+    float: left;
+    width: 64%;   
+    padding-left: 30px;
+    background-color: white;
+    border-right: solid;
+    border-color: #2a70df
+
+}
+
+.leftContent h2{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+
+}
+
+.img1{
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.leftContent p{
+    margin-right: 90px;
+
+}
+
+.img2{
+    padding-right: 18px;
+    padding-bottom: 30px;
+}
+
+.rightContent{
+    width: 32%;
+    float: right;
+    background-color: white;
+    /*padding-right: 30px;*/
+}
+
+.rightContent form{
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.inputText{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.inputTextArea{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;    
+}
+
+.subButton{
+    background-color: #2a70df;
+    color: white;
+    border-style: none;
+    border-radius: none;
+    text-align: center;
+    padding: 8px;}
+
+.listContent{
+    padding-left: 10px;
+    float: left;
+}
+
+.listContent h2{
+    font-size: 20px;
+}
+
+.ol li{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.footer{
+
+    width: 1000px;
+    height: 44px;
+    clear: left;
+    padding-left: 30px;
+    background-color: #95beff
+}
+
+.copy{
+    margin-top: 30px;
+    float: left;
+    vertical-align: middle;
+}
+
+.social{
+    float: right;
+     padding-right: 30px;
+      /*padding-top: 4px;*/
+    /*padding-bottom: 4px;*/
+}
